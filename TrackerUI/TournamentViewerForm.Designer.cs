@@ -37,6 +37,7 @@
             this.matchupListBox = new System.Windows.Forms.ListBox();
             this.teamOneName = new System.Windows.Forms.Label();
             this.teamOneScoreLabel = new System.Windows.Forms.Label();
+            this.teamOneScoreValue = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // headerLabel
@@ -128,12 +129,20 @@
             this.teamOneScoreLabel.Text = "Score";
             this.teamOneScoreLabel.Click += new System.EventHandler(this.label2_Click);
             // 
+            // teamOneScoreValue
+            // 
+            this.teamOneScoreValue.Location = new System.Drawing.Point(626, 382);
+            this.teamOneScoreValue.Name = "teamOneScoreValue";
+            this.teamOneScoreValue.Size = new System.Drawing.Size(100, 50);
+            this.teamOneScoreValue.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(983, 681);
+            this.Controls.Add(this.teamOneScoreValue);
             this.Controls.Add(this.teamOneScoreLabel);
             this.Controls.Add(this.teamOneName);
             this.Controls.Add(this.matchupListBox);
@@ -162,6 +171,7 @@
         private System.Windows.Forms.ListBox matchupListBox;
         private System.Windows.Forms.Label teamOneName;
         private System.Windows.Forms.Label teamOneScoreLabel;
+        private System.Windows.Forms.TextBox teamOneScoreValue;
     }
 }
 
