@@ -1,0 +1,2 @@
+C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.csprojAssemblyReference.cache
+C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CoreCompileInputs.cache
