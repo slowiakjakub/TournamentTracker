@@ -31,5 +31,15 @@ namespace TrackerUI
         {
 
         }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void scoreButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
