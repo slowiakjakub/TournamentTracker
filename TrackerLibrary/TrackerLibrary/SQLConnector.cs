@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    class SQLConnector : IDataConnection
+    public class SQLConnector : IDataConnection
     {
         // TODO - Make the CreatePrize method actually save to the database.
         /// <summary>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    class MatchupModel
+    public class MatchupModel
     {
         /// <summary>
         /// Pair of teams that were involved in this match.

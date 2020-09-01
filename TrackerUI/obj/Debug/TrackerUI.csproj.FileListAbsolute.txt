@@ -12,3 +12,6 @@ C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerUI\obj\Debug
 C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreatePrizeForm.resources
 C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.GV.resources
 C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.TournamentDashboardForm.resources
+C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.dll
+C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerUI\bin\Debug\TrackerLibrary.pdb
+C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csproj.CopyComplete

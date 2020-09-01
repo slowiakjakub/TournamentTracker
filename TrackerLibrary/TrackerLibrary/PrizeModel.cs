@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    class PrizeModel
+    public class PrizeModel
     {
         /// <summary>
         /// The unique identifier for the prize.
