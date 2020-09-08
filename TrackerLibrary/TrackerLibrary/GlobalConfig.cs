@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrackerLibrary.DataAccess;
+using System.Configuration
 
 namespace TrackerLibrary
 {
@@ -17,12 +19,17 @@ namespace TrackerLibrary
                 SQLConnector sql = new SQLConnector();
                 Connections.Add(sql);
             }
-            else if (textFiles)
+            if (textFiles)
             {
                 // TODO - Create the Text Connection
-                TextConnection text = new TextConnection();
+                TextConnector text = new TextConnector();
                 Connections.Add(text);
             }
+        }
+
+        public static string CnnString(string name)
+        {
+            return ConfigurationManager.ConnectionStrings[name].ConnectionString;
         }
     }
 }

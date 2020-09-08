@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreatePrizeForm));
             this.createPrizeLabel = new System.Windows.Forms.Label();
-            this.placeNumberValueValue = new System.Windows.Forms.TextBox();
-            this.firstNameLabel = new System.Windows.Forms.Label();
+            this.placeNumberValue = new System.Windows.Forms.TextBox();
+            this.placeNumberLabel = new System.Windows.Forms.Label();
             this.placeNameValue = new System.Windows.Forms.TextBox();
             this.placeNameLabel = new System.Windows.Forms.Label();
             this.prizePercentageValue = new System.Windows.Forms.TextBox();
@@ -54,24 +54,24 @@
             this.createPrizeLabel.TabIndex = 12;
             this.createPrizeLabel.Text = "Create Prize";
             // 
-            // placeNumberValueValue
+            // placeNumberValue
             // 
-            this.placeNumberValueValue.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.placeNumberValueValue.Location = new System.Drawing.Point(215, 105);
-            this.placeNumberValueValue.Name = "placeNumberValueValue";
-            this.placeNumberValueValue.Size = new System.Drawing.Size(201, 36);
-            this.placeNumberValueValue.TabIndex = 14;
+            this.placeNumberValue.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.placeNumberValue.Location = new System.Drawing.Point(215, 105);
+            this.placeNumberValue.Name = "placeNumberValue";
+            this.placeNumberValue.Size = new System.Drawing.Size(201, 36);
+            this.placeNumberValue.TabIndex = 14;
             // 
-            // firstNameLabel
+            // placeNumberLabel
             // 
-            this.firstNameLabel.AutoSize = true;
-            this.firstNameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.firstNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.firstNameLabel.Location = new System.Drawing.Point(32, 105);
-            this.firstNameLabel.Name = "firstNameLabel";
-            this.firstNameLabel.Size = new System.Drawing.Size(153, 30);
-            this.firstNameLabel.TabIndex = 13;
-            this.firstNameLabel.Text = "Place Number";
+            this.placeNumberLabel.AutoSize = true;
+            this.placeNumberLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.placeNumberLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.placeNumberLabel.Location = new System.Drawing.Point(32, 105);
+            this.placeNumberLabel.Name = "placeNumberLabel";
+            this.placeNumberLabel.Size = new System.Drawing.Size(153, 30);
+            this.placeNumberLabel.TabIndex = 13;
+            this.placeNumberLabel.Text = "Place Number";
             // 
             // placeNameValue
             // 
@@ -99,6 +99,7 @@
             this.prizePercentageValue.Name = "prizePercentageValue";
             this.prizePercentageValue.Size = new System.Drawing.Size(201, 36);
             this.prizePercentageValue.TabIndex = 20;
+            this.prizePercentageValue.Text = "0";
             // 
             // prizePercentageLabel
             // 
@@ -118,6 +119,7 @@
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(201, 36);
             this.prizeAmountValue.TabIndex = 18;
+            this.prizeAmountValue.Text = " 0";
             // 
             // prizeAmountLabel
             // 
@@ -172,8 +174,8 @@
             this.Controls.Add(this.prizeAmountLabel);
             this.Controls.Add(this.placeNameValue);
             this.Controls.Add(this.placeNameLabel);
-            this.Controls.Add(this.placeNumberValueValue);
-            this.Controls.Add(this.firstNameLabel);
+            this.Controls.Add(this.placeNumberValue);
+            this.Controls.Add(this.placeNumberLabel);
             this.Controls.Add(this.createPrizeLabel);
             this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -187,8 +189,8 @@
         #endregion
 
         private System.Windows.Forms.Label createPrizeLabel;
-        private System.Windows.Forms.TextBox placeNumberValueValue;
-        private System.Windows.Forms.Label firstNameLabel;
+        private System.Windows.Forms.TextBox placeNumberValue;
+        private System.Windows.Forms.Label placeNumberLabel;
         private System.Windows.Forms.TextBox placeNameValue;
         private System.Windows.Forms.Label placeNameLabel;
         private System.Windows.Forms.TextBox prizePercentageValue;
