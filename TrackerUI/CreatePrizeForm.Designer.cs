@@ -119,7 +119,7 @@
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(201, 36);
             this.prizeAmountValue.TabIndex = 18;
-            this.prizeAmountValue.Text = " 0";
+            this.prizeAmountValue.Text = "0";
             // 
             // prizeAmountLabel
             // 
