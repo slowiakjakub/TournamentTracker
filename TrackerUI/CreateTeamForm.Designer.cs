@@ -154,6 +154,7 @@
             this.createMemberButton.TabIndex = 21;
             this.createMemberButton.Text = "Create Member";
             this.createMemberButton.UseVisualStyleBackColor = true;
+            this.createMemberButton.Click += new System.EventHandler(this.createMemberButton_Click);
             // 
             // cellphoneValue
             // 
@@ -274,7 +275,7 @@
             this.createTeamButton.Text = "Create Team";
             this.createTeamButton.UseVisualStyleBackColor = true;
             // 
-            // GV
+            // CreateTeamForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 50F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -293,7 +294,7 @@
             this.Font = new System.Drawing.Font("Segoe UI Light", 28F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(10, 12, 10, 12);
-            this.Name = "GV";
+            this.Name = "CreateTeamForm";
             this.RightToLeftLayout = true;
             this.Text = "Create Team";
             this.addNewMemberBox.ResumeLayout(false);

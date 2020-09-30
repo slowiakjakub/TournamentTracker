@@ -8,6 +8,7 @@ namespace TrackerLibrary.Models
 {
     public class PersonModel
     {
+        public int Id { get; set; }
         /// <summary>
         /// The First Name od the person.
         /// </summary>
