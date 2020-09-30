@@ -7,3 +7,12 @@ C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerLibrary\Trac
 C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\bin\Debug\Dapper.dll
 C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\bin\Debug\Dapper.xml
 C:\Users\dwaba\Desktop\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CopyComplete
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\bin\Debug\TrackerLibrary.dll
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\bin\Debug\TrackerLibrary.pdb
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\bin\Debug\Dapper.dll
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\bin\Debug\Dapper.xml
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.csprojAssemblyReference.cache
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.csproj.CopyComplete
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.dll
+C:\Users\dwaba\Desktop\Programowanie\C Sharp Programming\TournamentTracker\TrackerLibrary\TrackerLibrary\obj\Debug\TrackerLibrary.pdb

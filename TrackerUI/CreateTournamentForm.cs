@@ -16,55 +16,5 @@ namespace TrackerUI
         {
             InitializeComponent();
         }
-
-        private void teamOneScoreLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void teamOneScoreValue_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tournamentNameValue_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void roundDropDown_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CreateTournamentForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void scoreButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void addTeamButton_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
