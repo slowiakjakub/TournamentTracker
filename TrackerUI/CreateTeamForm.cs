@@ -16,6 +16,7 @@ namespace TrackerUI
     {
         public CreateTeamForm()
         {
+            AutoScaleMode = AutoScaleMode.None;
             InitializeComponent();
         }
 
