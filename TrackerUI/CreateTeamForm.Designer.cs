@@ -259,6 +259,7 @@
             this.removeSelectedMemberButton.TabIndex = 22;
             this.removeSelectedMemberButton.Text = "Remove Selected";
             this.removeSelectedMemberButton.UseVisualStyleBackColor = true;
+            this.removeSelectedMemberButton.Click += new System.EventHandler(this.removeSelectedMemberButton_Click);
             // 
             // createTeamButton
             // 
