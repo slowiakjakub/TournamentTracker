@@ -33,7 +33,7 @@
             this.teamNameLabel = new System.Windows.Forms.Label();
             this.createTeamLabel = new System.Windows.Forms.Label();
             this.addMemberButton = new System.Windows.Forms.Button();
-            this.selectTeamMemberDown = new System.Windows.Forms.ComboBox();
+            this.selectTeamMemberDropDown = new System.Windows.Forms.ComboBox();
             this.selectTeamMemberLabel = new System.Windows.Forms.Label();
             this.addNewMemberBox = new System.Windows.Forms.GroupBox();
             this.createMemberButton = new System.Windows.Forms.Button();
@@ -98,15 +98,15 @@
             this.addMemberButton.Text = "Add Member";
             this.addMemberButton.UseVisualStyleBackColor = true;
             // 
-            // selectTeamMemberDown
+            // selectTeamMemberDropDown
             // 
-            this.selectTeamMemberDown.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.selectTeamMemberDown.FormattingEnabled = true;
-            this.selectTeamMemberDown.IntegralHeight = false;
-            this.selectTeamMemberDown.Location = new System.Drawing.Point(29, 226);
-            this.selectTeamMemberDown.Name = "selectTeamMemberDown";
-            this.selectTeamMemberDown.Size = new System.Drawing.Size(362, 38);
-            this.selectTeamMemberDown.TabIndex = 18;
+            this.selectTeamMemberDropDown.Font = new System.Drawing.Font("Segoe UI", 16F);
+            this.selectTeamMemberDropDown.FormattingEnabled = true;
+            this.selectTeamMemberDropDown.IntegralHeight = false;
+            this.selectTeamMemberDropDown.Location = new System.Drawing.Point(29, 226);
+            this.selectTeamMemberDropDown.Name = "selectTeamMemberDropDown";
+            this.selectTeamMemberDropDown.Size = new System.Drawing.Size(362, 38);
+            this.selectTeamMemberDropDown.TabIndex = 18;
             // 
             // selectTeamMemberLabel
             // 
@@ -286,7 +286,7 @@
             this.Controls.Add(this.teamMembersListBox);
             this.Controls.Add(this.addNewMemberBox);
             this.Controls.Add(this.addMemberButton);
-            this.Controls.Add(this.selectTeamMemberDown);
+            this.Controls.Add(this.selectTeamMemberDropDown);
             this.Controls.Add(this.selectTeamMemberLabel);
             this.Controls.Add(this.tournamentNameValue);
             this.Controls.Add(this.teamNameLabel);
@@ -310,7 +310,7 @@
         private System.Windows.Forms.Label teamNameLabel;
         private System.Windows.Forms.Label createTeamLabel;
         private System.Windows.Forms.Button addMemberButton;
-        private System.Windows.Forms.ComboBox selectTeamMemberDown;
+        private System.Windows.Forms.ComboBox selectTeamMemberDropDown;
         private System.Windows.Forms.Label selectTeamMemberLabel;
         private System.Windows.Forms.GroupBox addNewMemberBox;
         private System.Windows.Forms.TextBox firstNameValue;
