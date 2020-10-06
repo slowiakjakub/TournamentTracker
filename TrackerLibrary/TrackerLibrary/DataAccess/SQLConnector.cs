@@ -29,7 +29,6 @@ namespace TrackerLibrary.DataAccess
                 return model;
             }
         }
-
         /// <summary>
         /// Saves a new prize to the database.
         /// </summary>
@@ -52,6 +51,16 @@ namespace TrackerLibrary.DataAccess
 
                 return model;
             }
+        }
+         
+        public List<PersonModel> GetPerson_All()
+        {
+            List<PersonModel> output;
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("Tournaments")))
+            {
+                output = connection.Query<PersonModel>("dbo.spPeople_GetAll").ToList();
+            };
+            return output;
         }
     }
 }
