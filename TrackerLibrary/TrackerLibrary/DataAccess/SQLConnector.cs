@@ -81,7 +81,7 @@ namespace TrackerLibrary.DataAccess
 
         }
 
-        public TournamentModel CreateTournament(TournamentModel model)
+        public void CreateTournament(TournamentModel model)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
             {
@@ -89,8 +89,6 @@ namespace TrackerLibrary.DataAccess
                 SaveTournamentPrizes(connection, model);
                 SaveTournamentEntries(connection, model);
                 //TODO - Save TeamModel's "Rounds" Property to the database ( at this point it's not populated )
-
-                return model;
             }
         }
         private void SaveTournament(IDbConnection connection, TournamentModel model)
